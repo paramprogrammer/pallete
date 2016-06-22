@@ -1,0 +1,104 @@
+hp@hp-HP-Pavilion-g6-Notebook-PC:~$ git clone pallete
+fatal: repository 'pallete' does not exist
+hp@hp-HP-Pavilion-g6-Notebook-PC:~$ https://github.com/paramprogrammer/pallete.git
+bash: https://github.com/paramprogrammer/pallete.git: No such file or directory
+hp@hp-HP-Pavilion-g6-Notebook-PC:~$ git clone https://github.com/paramprogrammer/pallete.git
+Cloning into 'pallete'...
+warning: You appear to have cloned an empty repository.
+Checking connectivity... done.
+hp@hp-HP-Pavilion-g6-Notebook-PC:~$ cd pallete
+hp@hp-HP-Pavilion-g6-Notebook-PC:~/pallete$ cd pallete
+bash: cd: pallete: No such file or directory
+hp@hp-HP-Pavilion-g6-Notebook-PC:~/pallete$  https://github.com/paramprogrammer/pallete.git
+bash: https://github.com/paramprogrammer/pallete.git: No such file or directory
+hp@hp-HP-Pavilion-g6-Notebook-PC:~/pallete$ git clone  https://github.com/paramprogrammer/pallete.git
+Cloning into 'pallete'...
+warning: You appear to have cloned an empty repository.
+Checking connectivity... done.
+hp@hp-HP-Pavilion-g6-Notebook-PC:~/pallete$ cd pallete
+hp@hp-HP-Pavilion-g6-Notebook-PC:~/pallete/pallete$ git add -A
+hp@hp-HP-Pavilion-g6-Notebook-PC:~/pallete/pallete$ https://github.com/paramprogrammer/pallete.git
+bash: https://github.com/paramprogrammer/pallete.git: No such file or directory
+hp@hp-HP-Pavilion-g6-Notebook-PC:~/pallete/pallete$ git commit -m"message"
+[master (root-commit) 68b9922] message
+ 2 files changed, 726 insertions(+)
+ create mode 100644 pallete.css
+ create mode 100644 pallete.html
+hp@hp-HP-Pavilion-g6-Notebook-PC:~/pallete/pallete$ git config --global user.email"paramveer1067gmail.com"
+hp@hp-HP-Pavilion-g6-Notebook-PC:~/pallete/pallete$ git config --global user.name"paramprogrammer"
+hp@hp-HP-Pavilion-g6-Notebook-PC:~/pallete/pallete$ git commit -m "message"
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working directory clean
+hp@hp-HP-Pavilion-g6-Notebook-PC:~/pallete/pallete$ git commit -m "message"
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working directory clean
+hp@hp-HP-Pavilion-g6-Notebook-PC:~/pallete/pallete$ cd ..
+hp@hp-HP-Pavilion-g6-Notebook-PC:~/pallete$ cd ..
+hp@hp-HP-Pavilion-g6-Notebook-PC:~$ 
+hp@hp-HP-Pavilion-g6-Notebook-PC:~$ rm -r pallete
+rm: remove write-protected regular file ‘pallete/pallete/.git/objects/68/b9922784217af1c13ba98fea0cba07f7da6dea’? ^C
+hp@hp-HP-Pavilion-g6-Notebook-PC:~$ sudo rm -r pallete
+[sudo] password for hp: 
+hp@hp-HP-Pavilion-g6-Notebook-PC:~$ git clone  https://github.com/paramprogrammer/pallete.git
+Cloning into 'pallete'...
+warning: You appear to have cloned an empty repository.
+Checking connectivity... done.
+hp@hp-HP-Pavilion-g6-Notebook-PC:~$ cd pallete
+hp@hp-HP-Pavilion-g6-Notebook-PC:~/pallete$ ls
+pallete.css  pallete.html
+hp@hp-HP-Pavilion-g6-Notebook-PC:~/pallete$ git add -A
+hp@hp-HP-Pavilion-g6-Notebook-PC:~/pallete$ git commit -m "added pallete files"
+[master (root-commit) b278669] added pallete files
+ 2 files changed, 726 insertions(+)
+ create mode 100644 pallete.css
+ create mode 100644 pallete.html
+hp@hp-HP-Pavilion-g6-Notebook-PC:~/pallete$ git push origin master
+Username for 'https://github.com': paramprogrammer
+Password for 'https://paramprogrammer@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.18 KiB | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/paramprogrammer/pallete.git
+ * [new branch]      master -> master
+hp@hp-HP-Pavilion-g6-Notebook-PC:~/pallete$ ls
+pallete.css  pallete.html  pallete.html~
+hp@hp-HP-Pavilion-g6-Notebook-PC:~/pallete$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   pallete.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	pallete.html~
+
+no changes added to commit (use "git add" and/or "git commit -a")
+hp@hp-HP-Pavilion-g6-Notebook-PC:~/pallete$ git add pallete.html
+hp@hp-HP-Pavilion-g6-Notebook-PC:~/pallete$ git commit -m "file is modified"
+[master 09c3e91] file is modified
+ 1 file changed, 1 insertion(+)
+hp@hp-HP-Pavilion-g6-Notebook-PC:~/pallete$ git push origin master
+Username for 'https://github.com': paramprogrammer
+Password for 'https://paramprogrammer@github.com': 
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 328 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/paramprogrammer/pallete.git
+   b278669..09c3e91  master -> master
+hp@hp-HP-Pavilion-g6-Notebook-PC:~/pallete$ 
+
